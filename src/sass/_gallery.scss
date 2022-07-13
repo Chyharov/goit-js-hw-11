@@ -1,0 +1,102 @@
+body {
+  background-color: rgb(215,255,0);
+};
+
+.search-form {
+  background: linear-gradient(0deg, rgba(215,255,0,1) 0%, rgba(17,118,255,1) 100%);
+  padding: 20px 0;
+  font-size: 25px;
+  text-align: center;
+};
+
+input {
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  color: black;
+  outline: none;
+};
+
+.search-form button {
+  font-weight: 600;
+  color: black;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+  background: linear-gradient(45deg, rgba(215,255,0,1) 0%, rgba(17,118,255,1) 100%);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+};
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
+  padding: 15px
+};
+
+a {
+  width: 370px;
+  flex-basis: calc((100% - 8 * 15px) / 4);
+  text-decoration: none;
+  background-color: #fff;
+  color: #2b2a2a;
+  margin-left: 30px;
+  margin-top: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+};
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background: rgb(215,255,0);
+  background: linear-gradient(45deg, rgba(215,255,0,1) 0%, rgba(17,118,255,1) 100%);
+  border-end-end-radius: 10px;
+  border-end-start-radius: 10px;
+};
+
+p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 15px;
+  margin: 0;
+};
+
+b {
+  margin-bottom: 10px;
+  display: flex;
+};
+
+img {
+  border-start-end-radius: 10px;
+  border-top-left-radius: 10px;
+  height: 300px;
+  width: 100%;
+  display: block;
+};
+
+.load-more {
+  display: block;
+  margin: 30px auto 30px;
+  font-size: 30px;
+  font-weight: 600;
+  color: black;
+  padding: 5px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  background: rgb(215,255,0);
+  background: radial-gradient(circle, rgba(215,255,0,1) 0%, rgba(17,118,255,1) 100%);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+};
+
+.is-hidden {
+  display: none;
+};
+
+
